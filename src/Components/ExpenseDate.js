@@ -3,7 +3,7 @@ import './ExpenseDate.css'
 export default function ExpenseDate(props) {
     // Helper variables
   const expDate = props.date;
-    // Split date to M D Y
+    // Split date to M D Y !
   let expMonth = expDate.toLocaleDateString("en-Us", { month: "long" });
   let expDay = expDate.toLocaleDateString("en-Us", { day: "2-digit" });
   let expYear = expDate.getFullYear();
