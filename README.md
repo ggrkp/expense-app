@@ -1,2 +1,2 @@
 # expense-app
-Expense Tracker using React
+Using React for the development of a simple Expense Tracker
