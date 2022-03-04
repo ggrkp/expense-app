@@ -1,6 +1,7 @@
 import Expenses from "./Components/Expenses/Expenses";
 import NewExpense from "./Components/NewExpense/NewExpense";
 import { useState } from "react";
+// DUMMY DATA -> ill get this input via a database or an api.
 const INITIAL_EXPENSES = [
   {
     id: "e1",
